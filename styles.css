@@ -31,6 +31,15 @@ header h1 {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
 }
 
+
+.links-main-container a:hover {
+  background-color: rgba(54, 49, 218, 0.8);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  transform: translateY(-2px);
+  cursor: pointer; 
+  color: white;
+}
+
 @media (min-width: 800px) {
     
     body {
